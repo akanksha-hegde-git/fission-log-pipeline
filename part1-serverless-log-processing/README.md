@@ -10,7 +10,7 @@ A complete, production-ready serverless log processing pipeline built with Fissi
 
 A serverless log transformer fission function that:
 - Processes 1000+ logs/second
-- 120ms cold starts
+- 120ms cold starts or less
 - Auto-scales based on load
 - Runs on any Kubernetes cluster
 - Zero vendor lock-in
@@ -92,16 +92,8 @@ Transforms inconsistent log formats into standardized JSON:
 - Fission installed  
 - Docker Desktop running
 
-## Setup Environment:
-```bash
-cd part-1-serverless-processing
-./scripts/setup-minikube.sh
-./scripts/install-fission.sh
-```
-
 ## Manual Deployment
 
-If you prefer manual steps:
 ```bash
 # 1. Build Docker image (for Minikube)
 eval $(minikube docker-env)
@@ -163,6 +155,5 @@ docker build -t log-transformer:v1 .
 
 ## Documentation
 
-- **[Deployment Guide](deploy/README.md)** - Deploy instructions
 - **[Testing Guide](test/README.md)** - Test scripts
 - **[Troubleshooting](#troubleshooting)** - Common issues

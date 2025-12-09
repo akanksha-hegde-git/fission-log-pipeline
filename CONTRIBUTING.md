@@ -18,10 +18,11 @@ Thank you for your interest in contributing!
 - Use meaningful commit messages
 
 ## Testing
+Include test scripts and test feature.
 ```bash
 # Run all tests
 cd part-1-serverless-processing
-./test/test-single.sh
+./test/test-file.sh
 ```
 
 ## Reporting Issues
