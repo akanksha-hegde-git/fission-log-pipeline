@@ -12,7 +12,7 @@ A data pipeline that collects logs from multiple microservices, processes and tr
 
 ### Part 1: Serverless Log Processing with Fission + Go
 
-**Part 1A: Setup & Deploy Fission Function** - [Read Tutorial](https://medium.com/@akanksha-hegde-git/part-1a)
+**Part 1A: Setup & Deploy Fission Function** - [Read Tutorial](https://akankshahegde.medium.com/part-1-building-serverless-functions-with-open-source-tools-a-hands-on-guide-to-fission-on-0c38e5cec8ad)
 - Complete setup guide (Minikube + Fission)
 - Build and deploy log transformer
 - Basic testing and validation
